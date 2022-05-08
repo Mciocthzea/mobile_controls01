@@ -15,7 +15,7 @@ function onTouchStart(e){
 let log = document.getElementById("log");
 
 document.addEventListener("touchstart",onTouchStart);
-window.addEventListener('deviceorientation', function(event) {
+window.addEventListener('devicemotion', function(event) {
     log.innerText = "Rotate";
   });
 
